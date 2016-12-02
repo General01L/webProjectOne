@@ -34,7 +34,7 @@ header p {
 
 .jumbotron-orks {
   display: flex;
-  align-items: center;
+  align-items: top center;
   background-image: url("images/OrksFaction.jpg");
   background-size: cover;
   color: #ffffff;
@@ -44,7 +44,7 @@ header p {
 
 .jumbotron-chaos {
   display: flex;
-  align-items: center;
+  align-items: top center;
   background-image: url("images/ChaosFaction.jpg");
   background-size: cover;
   color: #ffffff;
@@ -54,7 +54,7 @@ header p {
 
 .jumbotron-marines {
   display: flex;
-  align-items: center;
+  align-items: top center;
   background-image: url("images/spaceMarinesFaction.jpg");
   background-size: cover;
   color: #ffffff;
@@ -64,7 +64,7 @@ header p {
 
 .jumbotron-sisters {
   display: flex;
-  align-items: center;
+  align-items: top center;
   background-image: url("images/SistersFaction.jpg");
   background-size: cover;
   color: #ffffff;
