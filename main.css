@@ -36,7 +36,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url("images/spaceHulk");
+  background-image: url("images/spaceHulk.jpg");
   background-size: cover;
   color: #ffffff;
   height: 700px;
