@@ -1,5 +1,5 @@
 function main() {
-  $('.container-choosefaction').hide();
+  //$('.container-choosefaction').hide();
 
 }
 
