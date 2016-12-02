@@ -115,7 +115,9 @@ section p {
   color: #E8590C;
 }
 
-.col-md-3 {
-  margin: 0em 0em 3em;
-  padding: 2em;
+.moreinfo-button {
+  padding: 0.75em 1.25em;
+  background-color: #28C6DB;
+  opacity: 0.3;
+  color: white;
 }
