@@ -30,10 +30,10 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://i.ytimg.com/vi/Jb8J1zx2Lrg/maxresdefault.jpg');
+  background-image: url('images/mechanicus.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 1000px;
+  height: 700px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
