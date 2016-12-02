@@ -39,7 +39,7 @@ header p {
   background-image: url('http://vignette2.wikia.nocookie.net/warhammer40k/images/6/6f/Space_Hulk_by_Zen_Master.jpg/revision/latest?cb=20120914182757');
   background-size: cover;
   color: #ffffff;
-  height: 7000px;
+  height: 700px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -61,6 +61,6 @@ section .row img {
   height: 300px;
 }
 
-.col-md-6 {
+.col-md-3 {
   margin: 0 0 30px;
 }
