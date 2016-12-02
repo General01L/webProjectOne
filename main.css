@@ -1,6 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  background-image: url('http://cdn.mysitemyway.com/etc-mysitemyway/webtreats/assets/posts/873/thumbs/tileable-metal-textures-1.jpg');
+  background-repeat: repeat;
 }
 
 header {
