@@ -1,7 +1,7 @@
 function main() {
   //$('.row-moreinfo').hide();
   $('.moreinfo-button').on('click', function() {;
-  $('.row-moreinfo').next().slideToggle(400);
+  $('.row-moreinfo').slideToggle(400);
  });
 }
 
