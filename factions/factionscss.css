@@ -32,13 +32,43 @@ header p {
   margin: 0em;
 }
 
-.jumbotron {
+.jumbotron-orks {
   display: flex;
   align-items: center;
-  background-image: url("images/spaceHulk.jpg");
+  background-image: url("images/orksFaction.jpg");
   background-size: cover;
   color: #ffffff;
-  height: 700px;
+  height: 400px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron-chaos {
+  display: flex;
+  align-items: center;
+  background-image: url("images/chaosFaction.jpg");
+  background-size: cover;
+  color: #ffffff;
+  height: 400px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron-marines {
+  display: flex;
+  align-items: center;
+  background-image: url("images/spaceMarinesFaction.jpg");
+  background-size: cover;
+  color: #ffffff;
+  height: 400px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron-sisters {
+  display: flex;
+  align-items: center;
+  background-image: url("images/SistersFaction.jpg");
+  background-size: cover;
+  color: #ffffff;
+  height: 400px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
