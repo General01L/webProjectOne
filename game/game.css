@@ -33,24 +33,24 @@ header p {
   margin: 0em;
 }
 
-.jumbotron {
+.jumbotron-start {
   display: flex;
   align-items: center;
-  background-image: url("game/images/mechanicus.jpg");
+  background-image: url("images/mechanicus.jpg");
   background-size: cover;
   color: #ffffff;
   height: 700px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
-.jumbotron h2 {
+.jumbotron-start h2 {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
   color: #fff;
 }
 
-.jumbotron h3 {
+.jumbotron-start h3 {
   margin: 0 0 20px;
   color: #fff;
 }
