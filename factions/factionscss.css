@@ -121,7 +121,7 @@ section p {
 .moreinfosisters-button {
   margin: 0 auto;
   padding: 0.75em 1.25em;
-  background-color: #28C6DB;
+  background-color: linear-gradient(to bottom right, #0D0C00, #D4C500);
   opacity: 1;
   width: 25em;
   color: white;
