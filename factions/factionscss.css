@@ -35,20 +35,20 @@ header p {
 .jumbotron-orks {
   display: flex;
   align-items: center;
-  background-image: url("images/orksFaction.jpg");
+  background-image: url("images/OrksFaction.jpg");
   background-size: cover;
   color: #ffffff;
-  height: 400px;
+  height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
 .jumbotron-chaos {
   display: flex;
   align-items: center;
-  background-image: url("images/chaosFaction.jpg");
+  background-image: url("images/ChaosFaction.jpg");
   background-size: cover;
   color: #ffffff;
-  height: 400px;
+  height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -58,7 +58,7 @@ header p {
   background-image: url("images/spaceMarinesFaction.jpg");
   background-size: cover;
   color: #ffffff;
-  height: 400px;
+  height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -68,20 +68,26 @@ header p {
   background-image: url("images/SistersFaction.jpg");
   background-size: cover;
   color: #ffffff;
-  height: 400px;
+  height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
-.jumbotron h2 {
-  font-size: 6em;
-  font-weight: 700;
+.jumbotron-sisters h2, .jumbotron-marines h2, .jumbotron-chaos h2, .jumbotron-orks h2 {
+  font-size: 6em;  
+  font-weight: bold;
   margin: 0em;
   color: #fff;
 }
 
-.jumbotron h3 {
+.jumbotron-sisters h3, .jumbotron-marines h2, .jumbotron-chaos h2, .jumbotron-orks h2 {
   margin: 0em 0em 2em;
+  font-style: italic;
+  font-size: 2em;
   color: #fff;
+}
+
+.jumbotron-sisters h4, .jumbotron-marines h2, .jumbotron-chaos h2, .jumbotron-orks h2 {
+  font-size: 1em;
 }
 
 section .row img {
