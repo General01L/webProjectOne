@@ -123,8 +123,9 @@ section p {
   padding: 0.75em 1.25em;
   background-color: #28C6DB;
   opacity: 1;
-  width: 15em;
-  color: green;
+  width: 25em;
+  color: white;
+  font-size: 2em;
 }
 
 .active {
