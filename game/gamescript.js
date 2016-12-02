@@ -1,6 +1,6 @@
 function main() {
   $('.container-choosefaction').hide();
-  $('.btn btn primary').on('click', function() {;
+  $('.start-button').on('click', function() {;
   $('.jumbotron-start').fadeOut(800);
   $('.container-choosefaction').fadeIn(800);
  });
