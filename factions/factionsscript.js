@@ -1,6 +1,6 @@
 function main() {
   $('.row-moreinfo').hide();
-  $('.moreinfo-button').on('click', function() {;
+  $('.btn btn-primary').on('click', function() {;
   //$(this).next().toggle();
   $(this).next().slideToggle(400);
   $(this).toggleClass('active');
