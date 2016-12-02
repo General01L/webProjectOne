@@ -22,7 +22,7 @@ header h1 {
 
 header nav {
   display: flex;
-  font-size: 2em;
+  font-size: 5em;
   font-weight: bold;
   color: #FFA10D;
   justify-content: flex-end;
