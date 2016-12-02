@@ -56,11 +56,22 @@ header p {
 }
 
 .container-choosefaction img {
+  align-items:center;
   margin: 0em 0em 3em;
   padding: 2em;
   width: 400px;
   height: 400px;
   background-size: contain;
+}
+
+.container-choosefaction h1 {
+  font-size: 6em;
+  color: #911710;
+}
+
+.container-choosefaction h2 {
+  font-size: 4em;
+  color: #E8590C;
 }
 
 
