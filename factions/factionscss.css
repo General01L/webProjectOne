@@ -72,22 +72,31 @@ header p {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
-.jumbotron-sisters h2, .jumbotron-marines h2, .jumbotron-chaos h2, .jumbotron-orks h2 {
-  font-size: 6em;  
+.jumbotron-sisters h2,
+.jumbotron-marines h2,
+.jumbotron-chaos h2,
+.jumbotron-orks h2 {
+  font-size: 4em;  
   font-weight: bold;
   margin: 0em;
   color: #fff;
 }
 
-.jumbotron-sisters h3, .jumbotron-marines h2, .jumbotron-chaos h2, .jumbotron-orks h2 {
+.jumbotron-sisters h3,
+.jumbotron-marines h3,
+.jumbotron-chaos h3,
+.jumbotron-orks h3 {
   margin: 0em 0em 2em;
   font-style: italic;
-  font-size: 2em;
+  font-size: 3em;
   color: #fff;
 }
 
-.jumbotron-sisters h4, .jumbotron-marines h2, .jumbotron-chaos h2, .jumbotron-orks h2 {
-  font-size: 1em;
+.jumbotron-sisters h4,
+.jumbotron-marines h4,
+.jumbotron-chaos h4,
+.jumbotron-orks h4 {
+  font-size: 2em;
 }
 
 section .row img {
