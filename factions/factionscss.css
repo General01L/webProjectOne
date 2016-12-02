@@ -122,3 +122,8 @@ section p {
   width: 10em;
   color: white;
 }
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
