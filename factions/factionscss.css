@@ -115,11 +115,15 @@ section p {
   color: #E8590C;
 }
 
-.moreinfo-button {
+.moreinfoorks-button,
+.moreinfochaos-button,
+.moreinfomarines-button,
+.moreinfosisters-button {
+  align-items: bottom center;
   padding: 0.75em 1.25em;
   background-color: #28C6DB;
   opacity: 1;
-  width: 10em;
+  width: 15em;
   color: white;
 }
 
