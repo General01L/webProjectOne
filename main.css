@@ -72,3 +72,17 @@ section p {
   margin: 0em 0em 3em;
   padding: 2em;
 }
+
+.button-hulk {
+  margin: 0 auto;
+  padding: 0.75em 1.25em;
+  background: linear-gradient(to bottom right, #B00200, #D4C500);
+  opacity: 1;
+  width: 25em;
+  color: whitesmoke;
+  font-size: 2em;
+}
+
+.active {
+  background: #333333;
+}
