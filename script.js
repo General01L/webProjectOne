@@ -10,8 +10,8 @@ function adaptcsssize(width) {
 }
 
 $(function() {
-  adjustStyle($(this).width());
+  adaptcsssize($(this).width());
   $(window).resize(function() {
-    adjustStyle($(this).width());
+    adaptcsssize($(this).width());
   });
 });
