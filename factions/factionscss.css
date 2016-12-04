@@ -119,11 +119,11 @@ section p {
 .moreinfochaos-button,
 .moreinfomarines-button,
 .moreinfosisters-button {
-  margin: 0 auto;
+  margin: 600px auto auto auto ;
   padding: 0.75em 1.25em;
   background: linear-gradient(to bottom right, #B00200, #D4C500);
   opacity: 1;
-  width: 25em;
+  width: 20em;
   color: whitesmoke;
   font-size: 2em;
 }
