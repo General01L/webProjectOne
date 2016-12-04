@@ -119,7 +119,7 @@ section p {
 .moreinfochaos-button,
 .moreinfomarines-button,
 .moreinfosisters-button {
-  margin: auto ;
+  margin: 70% 50% 30% 50% ;
   padding: 0.75em 1.25em;
   background: linear-gradient(to bottom right, #B00200, #D4C500);
   opacity: 1;
