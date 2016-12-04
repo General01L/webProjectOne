@@ -3,9 +3,9 @@ function adaptcsssize(width) {
   if (width < 800) {
     $("#size-stylesheet").attr("href", "mainsmall.css");
   } else if (width < 2000) {
-    $("#size-stylesheet").attr("href", "css/main.css");
+    $("#size-stylesheet").attr("href", "main.css");
   } else {
-     $("#size-stylesheet").attr("href", "css/mainlarge.css"); 
+     $("#size-stylesheet").attr("href", "mainlarge.css"); 
   }
 }
 
