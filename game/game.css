@@ -95,6 +95,7 @@ footer {
   padding: 0.5em 0;
   color: #FFF;
   background: linear-gradient(to bottom right, #186778, #2FC7E8);
+  background-size: cover;
 }
 
 footer .col-sm-8 {
