@@ -98,6 +98,8 @@ figure .col-sm-3 {
 footer {
   font-size: 2em;
   padding: 0.5em 0;
+  color: #FFF;
+  background-color: linear-gradient(to bottom right, #186778, #2FC7E8);
 }
 
 footer .col-sm-8 {
