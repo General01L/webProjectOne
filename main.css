@@ -62,9 +62,15 @@ section .row img {
   height: 300px;
 }
 
-section p {
+section h3 {
   font-size: 3em;
   font-weight: bold;
+  color: #E8590C;
+}
+
+section p {
+  font-size: 2em;
+  font-weight: normal;
   color: #E8590C;
 }
 
