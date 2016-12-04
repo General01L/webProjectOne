@@ -74,7 +74,7 @@ section p {
   color: #E8590C;
 }
 
-figure .row {
+.infobox {
   margin: 0em 0em 3em;
   padding: 2em;
   border: 6px double #00FFFB;
