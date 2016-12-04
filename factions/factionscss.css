@@ -37,8 +37,9 @@ header p {
   display: flex;
   align-items: top center;
   background-image: url("images/OrksFaction.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   color: #ffffff;
+  height: 700px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -46,8 +47,8 @@ header p {
   display: flex;
   align-items: top center;
   background-image: url("images/ChaosFaction.jpg");
-  background-size: 100% 100%;
-  color: #ffffff;
+  background-size: cover;
+  height: 700px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -55,8 +56,9 @@ header p {
   display: flex;
   align-items: top center;
   background-image: url("images/spaceMarinesFaction.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   color: #ffffff;
+  height: 700px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
