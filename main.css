@@ -77,8 +77,8 @@ section p {
 figure .infobox {
   margin: 0em 0em 3em;
   padding: 2em;
-  border: 2px double #390A42;
-  border-radius: 5px;
+  border: 6px double #00FFFB;
+  border-radius: 10px;
 }
 
 .infestation-button {
