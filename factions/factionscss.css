@@ -108,10 +108,22 @@ section .row img {
   height: 300px;
 }
 
-section p {
-  font-size: 3em;
+section h2 {
+  font-size: 3em;  
   font-weight: bold;
+  margin: 0.5em;
   color: #E8590C;
+}
+
+section p {
+  font-size: 2em;
+  font-weight: normal;
+  color: #E8590C;
+}
+
+section a {
+  font-size: 2em;
+  font-weight: bold italic;
 }
 
 .moreinfoorks-button,
@@ -129,22 +141,4 @@ section p {
 
 .active {
   background: #333333;
-}
-
-.row-moreinfoorks h2,
-.row-moreinfochaos h2,
-.row-moreinfomarines h2,
-.row-moreinfosisters h2 {
-  font-size: 4em;  
-  font-weight: bold;
-  margin: 0.5em;
-  color: #E8590C;
-}
-
-.row-moreinfoorks p,
-.row-moreinfochaos p,
-.row-moreinfomarines p,
-.row-moreinfosisters p {
-  font-size: 2em;
-  font-weight: normal;
 }
