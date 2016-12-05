@@ -62,6 +62,10 @@ function startscreen() {
         $('.orkstoryB1').fadeOut(800);
         $('.orkstoryB2').fadeIn(1600);
       });
+      $('.selectorkstoryB3').on('click', function() {;
+        $('.orkstoryB1').fadeOut(800);
+        $('.orkstoryB3').fadeIn(1600);
+      });
     });
   });
   $('.choosechaos').on('click', function() {;
