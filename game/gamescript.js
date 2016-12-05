@@ -143,7 +143,7 @@ function startscreen() {
   $('.choosemarines').on('click', function() {;
     $('.container-choosefaction').fadeOut(800);
     $('.container-wargearmarines').fadeIn(1600);
-      $('.choosepowerfist').on('click', function() {;
+      $('.choosefist').on('click', function() {;
         $('.container-wargearmarines').fadeOut(800);
         $('.marinesstoryA1').fadeIn(1600);
         $('.selectmarinesstoryA2').on('click', function() {;
