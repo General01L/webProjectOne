@@ -82,16 +82,6 @@ header p {
   border-radius: 10px;
 }
 
-.chooseorks,
-.choosechaos,
-.choosesisters,
-.choosemarines{
-  margin: 0em 0em 3em;
-  padding: 2em;
-  border: 6px double #00FFFB;
-  border-radius: 10px;
-}
-
 .container-wargearorks h1,
 .container-wargearchaos h1,
 .container-wargearsisters h1,
@@ -141,6 +131,7 @@ header p {
 .active {
   background: linear-gradient(to bottom right, #00330B, #006115);
 }
+
 footer {
   font-size: 2em;
   padding: 0.5em 0;
