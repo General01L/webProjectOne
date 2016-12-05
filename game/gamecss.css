@@ -1,0 +1,113 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  background: linear-gradient(#000000, #3B3B3B);
+}
+
+header {
+  padding: 1em 0em;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  font-size: 2em;
+  font-weight: bold;
+  color: #FFA10D;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0em 1em;
+  margin: 0em;
+}
+
+.jumbotron-start {
+  display: flex;
+  align-items: center;
+  background-image: url("images/mechanicus.jpg");
+  background-size: cover;
+  color: #ffffff;
+  height: 700px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron-start h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron-start h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.container-choosefaction img {
+  align-items:center;
+  margin: 0em 0em 3em;
+  padding: 2em;
+  width: 400px;
+  height: 400px;
+  background-size: contain;
+}
+
+.container-choosefaction h1 {
+  font-size: 6em;
+  color: #911710;
+}
+
+.container-choosefaction h2 {
+  font-size: 4em;
+  color: #E8590C;
+}
+
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.start-button {
+  margin: 0 auto;
+  padding: 0.75em 1.25em;
+  background-color: #28C6DB;
+  opacity: 1;
+  width: 25em;
+  color: white;
+  font-size: 2em;
+}
+
+
+footer {
+  font-size: 2em;
+  padding: 0.5em 0;
+  color: #FFF;
+  background: linear-gradient(to bottom right, #186778, #2FC7E8);
+  background-size: cover;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
