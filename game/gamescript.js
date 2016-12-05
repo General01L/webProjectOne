@@ -18,12 +18,12 @@ $(function() {
 
  
 function startscreen() {
-  var start = 0;
-  var race = 0;
-  var wargearOrks = 0;
-  var wargearChaos = 0;
-  var wargearMarines = 0;
-  var wargearSisters = 0;
+  start = 0;
+  race = 0;
+  wargearOrks = 0;
+  wargearChaos = 0;
+  wargearMarines = 0;
+  wargearSisters = 0;
   $('.container-choosefaction').hide();
   $('.container-wargearorks').hide();
   $('.container-wargearchaos').hide();
