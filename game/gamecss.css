@@ -134,6 +134,24 @@ header p {
   padding: 1em;
 }
 
+.story h1 {
+  font-size: 4em;
+  font-weight: bold;
+  color: #911710;
+}
+
+.story h2 {
+  font-size: 3em;
+  font-weight: normal;
+  color: #E8590C;
+}
+
+.story p {
+  font-size: 2em;
+  font-weight: normal;
+  color: #E8590C;
+}
+
 .start-button {
   margin: 0 auto;
   padding: 0.5em;
