@@ -101,8 +101,8 @@ section p {
   font-size: 2em;
 }
 
-.active {
-  background: #333333;
+.container-video {
+  align-items: center;
 }
 
 footer {
