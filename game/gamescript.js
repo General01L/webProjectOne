@@ -29,6 +29,12 @@ function startscreen() {
   $('.orkstoryB1').hide();
   $('.orkstoryB2').hide();
   $('.orkstoryB3').hide();
+  $('.chaosstoryA1').hide();
+  $('.chaosstoryA2').hide();
+  $('.chaosstoryA3').hide();
+  $('.chaosstoryB1').hide();
+  $('.chaosstoryB2').hide();
+  $('.chaosstoryB3').hide();
   $('.start-button').on('click', function() {;
     $('.jumbotron-start').fadeOut(800);
     $('.container-choosefaction').fadeIn(1600);
