@@ -30,7 +30,7 @@ function adaptcsssize(width) {
   } else if (width < 2200) {
     $("#size-stylesheet").attr("href", "factions/factionscss.css");
   } else {
-     $("#size-stylesheet").attr("href", "factions/factionscsslarge.csss"); 
+     $("#size-stylesheet").attr("href", "factions/factionscsslarge.css"); 
   }
 }
 
