@@ -1,3 +1,4 @@
+var start = 0;
 var race = 0;
 var wargearOrks = 0;
 var wargearChaos = 0;
@@ -32,7 +33,9 @@ function startscreen() {
   $('.start-button').on('click', function() {;
   $('.jumbotron-start').fadeOut(800);
   $('.container-choosefaction').fadeIn(1600);
+  start = 1;
  });
+  if(start = 1){
   $('.chooseorks').on('click', function() {;
   $('.container-choosefaction').fadeOut(800);
   race = 1;
@@ -49,6 +52,7 @@ function startscreen() {
   $('.container-choosefaction').fadeOut(800);
   race = 4;
  });
+  }
   if (race = 1) {
   $('.container-wargearorks').fadeIn(1600);
   $('.choosepk').on('click', function() {;
