@@ -162,6 +162,16 @@ header p {
   font-size: 2em;
 }
 
+.buttend-end {
+  margin: 0 auto;
+  padding: 0.5em;
+  background: linear-gradient(to bottom right, #390A42, #7B158F);
+  opacity: 1;
+  width: 10em;
+  color: white;
+  font-size: 2em;
+}
+
 .active {
   background: linear-gradient(to bottom right, #00330B, #006115);
 }
