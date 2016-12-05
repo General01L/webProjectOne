@@ -1,8 +1,8 @@
 function adaptcsssize(width) {
   width = parseInt(width);
-  if (width < 800) {
+  if (width < 1000) {
     $("#size-stylesheet").attr("href", "mainsmall.css");
-  } else if (width < 2000) {
+  } else if (width < 2200) {
     $("#size-stylesheet").attr("href", "main.css");
   } else {
      $("#size-stylesheet").attr("href", "mainlarge.css"); 
