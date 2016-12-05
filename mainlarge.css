@@ -107,7 +107,7 @@ section p {
 }
 
 .active {
-  background-color: #696969;
+  background: linear-gradient(to bottom right, #363636, #696969);
 }
 
 footer {
