@@ -102,6 +102,7 @@ section p {
 }
 
 .container-video {
+  display: flex;
   align-items: center;
 }
 
