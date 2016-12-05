@@ -22,7 +22,7 @@ $(function() {
   });
 });
 
-$(document).ready(function() { 
+ 
 function startscreen() {
   $('.container-choosefaction').hide();
   $('.container-wargearorks').hide();
@@ -33,10 +33,6 @@ function startscreen() {
   $('.jumbotron-start').fadeOut(800);
   $('.container-choosefaction').fadeIn(1600);
  });
-  chooserace();
-}
-
-function chooserace() {
   $('.chooseorks').on('click', function() {;
   $('.container-choosefaction').fadeOut(800);
   race = 1;
@@ -53,11 +49,7 @@ function chooserace() {
   $('.container-choosefaction').fadeOut(800);
   race = 4;
  });
-  choosewargear();
-}
-
-function choosewargear() {
-  if (race == 1) {
+  if (race = 1) {
   $('.container-wargearorks').fadeIn(1600);
   $('.choosepk').on('click', function() {;
   $('.container-wargearorks').fadeOut(800);
@@ -68,7 +60,7 @@ function choosewargear() {
   wargearOrks = 2;
  });
   }
-  else if (race == 2) {
+  else if (race = 2) {
   $('.container-wargearchaos').fadeIn(1600);
   $('.choosesword').on('click', function() {;
   $('.container-wargearchaos').fadeOut(800);
@@ -79,7 +71,7 @@ function choosewargear() {
   wargearChaos = 2;
  });
   }
-  else if (race == 3) {
+  else if (race = 3) {
   $('.container-wargearmarines').fadeIn(1600);
   $('.choosepowerfist').on('click', function() {;
   $('.container-wargearmarines').fadeOut(800);
@@ -90,7 +82,7 @@ function choosewargear() {
   wargearMarines = 2;
  });
   }
-  else if (race == 4) {
+  else if (race = 4) {
   $('.container-wargearsisters').fadeIn(1600);
   $('.chooseflamer').on('click', function() {;
   $('.container-wargearsisters').fadeOut(800);
@@ -104,5 +96,5 @@ function choosewargear() {
   else {
   }
 }
-});
 
+$(document).ready(startscreen);
