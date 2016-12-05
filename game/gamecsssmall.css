@@ -76,18 +76,8 @@ header p {
 
 
 .col-sm-6 {
-  margin: 0em 0em 3em;
-  padding: 2em;
-  border: 6px double #00FFFB;
-  border-radius: 10px;
-}
-
-.chooseorks,
-.choosechaos,
-.choosesisters,
-.choosemarines{
-  margin: 0em 0em 3em;
-  padding: 2em;
+  margin: 0em;
+  padding: 1em;
   border: 6px double #00FFFB;
   border-radius: 10px;
 }
