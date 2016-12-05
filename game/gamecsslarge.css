@@ -76,8 +76,8 @@ header p {
 
 
 .col-sm-6 {
-  margin: 0em 0em 3em;
-  padding: 2em;
+  margin: 0em;
+  padding: 1em;
   border: 6px double #00FFFB;
   border-radius: 10px;
 }
@@ -138,6 +138,9 @@ header p {
   font-size: 2em;
 }
 
+.active {
+  background: linear-gradient(to bottom right, #00330B, #006115);
+}
 footer {
   font-size: 2em;
   padding: 0.5em 0;
