@@ -53,6 +53,8 @@ function startscreen() {
   race = 4;
  });
   }
+  else {
+  }
   if (race = 1) {
   $('.container-wargearorks').fadeIn(1600);
   $('.choosepk').on('click', function() {;
