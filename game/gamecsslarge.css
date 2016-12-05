@@ -82,6 +82,13 @@ header p {
   border-radius: 10px;
 }
 
+.col-sm-12 {
+  margin: 0em;
+  padding: 1em;
+  border: 6px double #AD0000;
+  border-radius: 10px;
+}
+
 .container-wargearorks h1,
 .container-wargearchaos h1,
 .container-wargearsisters h1,
