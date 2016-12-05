@@ -58,7 +58,7 @@ function chooserace() {
 }
 
 function wargear() {
-  if (race == 1) {
+  if (race = 1) {
   $('.container-wargearorks').fadeIn(1600);
   $('.choosepk').on('click', function() {;
   $('.container-wargearorks').fadeOut(800);
@@ -69,7 +69,7 @@ function wargear() {
   wargearOrks = 2;
  });
   }
-  else if (race == 2) {
+  else if (race = 2) {
   $('.container-wargearchaos').fadeIn(1600);
   $('.choosesword').on('click', function() {;
   $('.container-wargearchaos').fadeOut(800);
@@ -80,7 +80,7 @@ function wargear() {
   wargearChaos = 2;
  });
   }
-  else if (race == 3) {
+  else if (race = 3) {
   $('.container-wargearmarines').fadeIn(1600);
   $('.choosepowerfist').on('click', function() {;
   $('.container-wargearmarines').fadeOut(800);
@@ -91,7 +91,7 @@ function wargear() {
   wargearMarines = 2;
  });
   }
-  else if (race == 4) {
+  else if (race = 4) {
   $('.container-wargearsisters').fadeIn(1600);
   $('.chooseflamer').on('click', function() {;
   $('.container-wargearsisters').fadeOut(800);
