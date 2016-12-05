@@ -35,8 +35,6 @@ function startscreen() {
   chooserace();
 }
 
-$(document).ready(startscreen);
-
 function chooserace() {
   $('.chooseorks').on('click', function() {;
   $('.container-choosefaction').fadeOut(800);
@@ -57,7 +55,7 @@ function chooserace() {
   choosewargear();
 }
 
-function wargear() {
+function choosewargear() {
   if (race = 1) {
   $('.container-wargearorks').fadeIn(1600);
   $('.choosepk').on('click', function() {;
@@ -107,4 +105,4 @@ function wargear() {
   }
 }
 
-$(document).ready(wargear);
+$(document).ready(startscreen);
