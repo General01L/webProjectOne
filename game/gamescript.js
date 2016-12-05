@@ -35,6 +35,12 @@ function startscreen() {
   $('.chaosstoryB1').hide();
   $('.chaosstoryB2').hide();
   $('.chaosstoryB3').hide();
+  $('.marinesstoryA1').hide();
+  $('.marinesstoryA2').hide();
+  $('.marinesstoryA3').hide();
+  $('.marinesstoryB1').hide();
+  $('.marinesstoryB2').hide();
+  $('.marinesstoryB3').hide();
   $('.start-button').on('click', function() {;
     $('.jumbotron-start').fadeOut(800);
     $('.container-choosefaction').fadeIn(1600);
