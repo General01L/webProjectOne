@@ -31,6 +31,7 @@ function startscreen() {
   $('.start-button').on('click', function() {;
   $('.jumbotron-start').fadeOut(800);
   $('.container-choosefaction').fadeIn(1600);
+  $(document).ready(choosefaction);
  });
 }
 
@@ -51,6 +52,7 @@ function chooserace() {
   $('.container-choosefaction').fadeOut(800);
   race = 4;
  });
+  $(document).ready(choosewargear);
 }
 
 function choosewargear() {
@@ -105,5 +107,3 @@ function choosewargear() {
 }
 
 $(document).ready(startscreen);
-$(document).ready(choosefaction);
-$(document).ready(choosewargear);
