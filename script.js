@@ -15,3 +15,17 @@ $(function() {
     adaptcsssize($(this).width());
   });
 });
+
+function videotoggle() {
+  $('.container-video').hide();
+  $('.infestation-button').on('click', function() {;
+  $('.jumbotron').fadeOut(400);
+  $('.container-video').fadeIn(800);                                               
+ });
+  $('.hide-button').on('click', function() {;
+  $('.container-video').fadeOut(400);
+  $('.jumbotron').fadeIn(800);                                               
+ });
+}
+
+$(document).ready(videotoggle);
