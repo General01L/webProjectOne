@@ -133,8 +133,12 @@ section a {
   font-size: 2em;
 }
 
+.clicked {
+  background: linear-gradient(to bottom right, #591815, #B8312C);
+}
+
 .active {
-  background: #333333;
+  background: linear-gradient(to bottom right, #363636, #696969);
 }
 
 footer {
