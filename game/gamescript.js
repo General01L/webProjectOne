@@ -52,10 +52,10 @@ function chooserace() {
   $('.container-choosefaction').fadeOut(800);
   race = 4;
  });
-  choosewargear(race);
+  choosewargear();
 }
 
-function choosewargear(race) {
+function choosewargear() {
   if (race == 1) {
   $('.container-wargearorks').fadeIn(1600);
   $('.choosepk').on('click', function() {;
