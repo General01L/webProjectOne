@@ -3,21 +3,49 @@ function main() {
   $('.row-moreinfochaos').hide();
   $('.row-moreinfomarines').hide();
   $('.row-moreinfosisters').hide();
+  $('.moreinfoorks-button').hover(
+  function(){
+  $(this).addClass('active');
+  },
+  function(){
+  $(this).removeClass('active');    
+  });
+  $('.moreinfochaos-button').hover(
+  function(){
+  $(this).addClass('active');
+  },
+  function(){
+  $(this).removeClass('active');    
+  });
+  $('.moreinfomarines-button').hover(
+  function(){
+  $(this).addClass('active');
+  },
+  function(){
+  $(this).removeClass('active');    
+  });
+  $('.moreinfosisters-button').hover(
+  function(){
+  $(this).addClass('active');
+  },
+  function(){
+  $(this).removeClass('active');    
+  });
   $('.moreinfoorks-button').on('click', function() {;
   $('.row-moreinfoorks').slideToggle(400);
-  $(this).toggleClass('active');
+  $(this).toggleClass('clicked');
  });
   $('.moreinfochaos-button').on('click', function() {;
   $('.row-moreinfochaos').slideToggle(400);
-  $(this).toggleClass('active');
+  $(this).toggleClass('clicked');
  });
   $('.moreinfomarines-button').on('click', function() {;
   $('.row-moreinfomarines').slideToggle(400);
-  $(this).toggleClass('active');
+  $(this).toggleClass('clicked');
  });
   $('.moreinfosisters-button').on('click', function() {;
   $('.row-moreinfosisters').slideToggle(400);
-  $(this).toggleClass('active');
+  $(this).toggleClass('clicked');
  });
 }
 
