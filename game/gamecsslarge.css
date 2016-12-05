@@ -119,6 +119,14 @@ header p {
   color: #E8590C;
 }
 
+.container-wargearorks img,
+.container-wargearchaos img,
+.container-wargearsisters img,
+.container-wargearmarines img {
+  max-height: 400px;
+  max-width: 400px;
+}
+
 .start-button {
   margin: 0 auto;
   padding: 0.75em 1.25em;
