@@ -18,6 +18,20 @@ $(function() {
 
 function videotoggle() {
   $('.container-video').hide();
+  $('.infestation-button').hover(
+  function(){
+  $(this).addClass('active');
+  },
+  function(){
+  $(this).removeClass('active');    
+  });
+  $('.hide-button').hover(
+  function(){
+  $(this).addClass('active');
+  },
+  function(){
+  $(this).removeClass('active');    
+  });
   $('.infestation-button').on('click', function() {;
   $('.jumbotron').fadeOut(400);
   $('.container-video').fadeIn(800);                                               
