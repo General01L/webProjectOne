@@ -44,14 +44,14 @@ header p {
 }
 
 .jumbotron-start h2 {
-  font-size: 60px;
+  font-size: 6em;
   font-weight: 700;
   margin: 0;
   color: #fff;
 }
 
 .jumbotron-start h3 {
-  margin: 0 0 20px;
+  margin: 0 0 2em;
   color: #fff;
 }
 
@@ -124,6 +124,7 @@ header p {
 .container-wargearmarines img {
   max-height: 300px;
   max-width: 300px;
+  padding: 1em;
 }
 
 .start-button {
