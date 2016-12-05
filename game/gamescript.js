@@ -1,10 +1,3 @@
-var start = 0;
-var race = 0;
-var wargearOrks = 0;
-var wargearChaos = 0;
-var wargearMarines = 0;
-var wargearSisters = 0;
-
 function adaptcsssize(width) {
   width = parseInt(width);
   if (width < 1000) {
@@ -25,6 +18,12 @@ $(function() {
 
  
 function startscreen() {
+  var start = 0;
+  var race = 0;
+  var wargearOrks = 0;
+  var wargearChaos = 0;
+  var wargearMarines = 0;
+  var wargearSisters = 0;
   $('.container-choosefaction').hide();
   $('.container-wargearorks').hide();
   $('.container-wargearchaos').hide();
