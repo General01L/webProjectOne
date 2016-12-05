@@ -128,6 +128,10 @@ header p {
   font-size: 2em;
 }
 
+.active {
+  background: linear-gradient(to bottom right, #00330B, #006115);
+}
+
 footer {
   font-size: 2em;
   padding: 0.5em 0;
