@@ -7,3 +7,21 @@ function main() {
 }
 
 $(document).ready(main);
+
+function adaptcsssize(width) {
+  width = parseInt(width);
+  if (width < 1000) {
+    $("#size-stylesheet").attr("href", "gamecsssmall.css");
+  } else if (width < 2200) {
+    $("#size-stylesheet").attr("href", "gamecss.css");
+  } else {
+     $("#size-stylesheet").attr("href", "gamecsslarge.css"); 
+  }
+}
+
+$(function() {
+  adaptcsssize($(this).width());
+  $(window).resize(function() {
+    adaptcsssize($(this).width());
+  });
+});
