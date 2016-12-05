@@ -105,10 +105,6 @@ section p {
   align-items: center;
 }
 
-.active {
-  background: #333333;
-}
-
 footer {
   font-size: 2em;
   padding: 0.5em 0;
