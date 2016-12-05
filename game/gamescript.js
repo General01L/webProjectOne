@@ -18,12 +18,6 @@ $(function() {
 
  
 function startscreen() {
-  start = 0;
-  race = 0;
-  wargearOrks = 0;
-  wargearChaos = 0;
-  wargearMarines = 0;
-  wargearSisters = 0;
   $('.container-choosefaction').hide();
   $('.container-wargearorks').hide();
   $('.container-wargearchaos').hide();
@@ -32,74 +26,47 @@ function startscreen() {
   $('.start-button').on('click', function() {;
   $('.jumbotron-start').fadeOut(800);
   $('.container-choosefaction').fadeIn(1600);
-  start = 1;
  });
-  if(start = 1){
   $('.chooseorks').on('click', function() {;
   $('.container-choosefaction').fadeOut(800);
-  race = 1;
- });
-  $('.choosechaos').on('click', function() {;
-  $('.container-choosefaction').fadeOut(800);
-  race = 2;
- });
-  $('.choosemarines').on('click', function() {;
-  $('.container-choosefaction').fadeOut(800);
-  race = 3;
- });
-  $('.choosesisters').on('click', function() {;
-  $('.container-choosefaction').fadeOut(800);
-  race = 4;
- });
-  }
-  else {
-  }
-  if (race = 1) {
   $('.container-wargearorks').fadeIn(1600);
   $('.choosepk').on('click', function() {;
   $('.container-wargearorks').fadeOut(800);
-  wargearOrks = 1;
  });
   $('.choosechoppa').on('click', function() {;
   $('.container-wargearorks').fadeOut(800);
-  wargearOrks = 2;
  });
-  }
-  else if (race = 2) {
+ });
+  $('.choosechaos').on('click', function() {;
+  $('.container-choosefaction').fadeOut(800);
   $('.container-wargearchaos').fadeIn(1600);
   $('.choosesword').on('click', function() {;
   $('.container-wargearchaos').fadeOut(800);
-  wargearChaos = 1;
  });
   $('.choosesound').on('click', function() {;
   $('.container-wargearchaos').fadeOut(800);
-  wargearChaos = 2;
  });
-  }
-  else if (race = 3) {
+ });
+  $('.choosemarines').on('click', function() {;
+  $('.container-choosefaction').fadeOut(800);
   $('.container-wargearmarines').fadeIn(1600);
   $('.choosepowerfist').on('click', function() {;
   $('.container-wargearmarines').fadeOut(800);
-  wargearMarines = 1;
  });
   $('.choosechainsword').on('click', function() {;
   $('.container-wargearmarines').fadeOut(800);
-  wargearMarines = 2;
  });
-  }
-  else if (race = 4) {
+ });
+  $('.choosesisters').on('click', function() {;
+  $('.container-choosefaction').fadeOut(800);
   $('.container-wargearsisters').fadeIn(1600);
   $('.chooseflamer').on('click', function() {;
   $('.container-wargearsisters').fadeOut(800);
-  wargearSisters = 1;
  });
   $('.choosemelta').on('click', function() {;
   $('.container-wargearsisters').fadeOut(800);
-  wargearSisters = 2;
  });
-  }
-  else {
-  }
+ });
 }
 
 $(document).ready(startscreen);
