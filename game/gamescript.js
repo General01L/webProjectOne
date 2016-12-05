@@ -32,7 +32,6 @@ function startscreen() {
   $('.jumbotron-start').fadeOut(800);
   $('.container-choosefaction').fadeIn(1600);
  });
-  chooserace();
 }
 
 function chooserace() {
@@ -52,12 +51,13 @@ function chooserace() {
   $('.container-choosefaction').fadeOut(800);
   race = 4;
  });
-  choosewargear();
 }
 
 function choosewargear() {
   if (race == 1) {
+  function() {;
   $('.container-wargearorks').fadeIn(1600);
+             }
   $('.choosepk').on('click', function() {;
   $('.container-wargearorks').fadeOut(800);
   wargearOrks = 1;
@@ -101,8 +101,9 @@ function choosewargear() {
  });
   }
   else {
-    startscreen();
   }
 }
 
 $(document).ready(startscreen);
+$(document).ready(choosefaction);
+$(document).ready(choosewargear);
