@@ -27,6 +27,13 @@ function startscreen() {
   $('.jumbotron-start').fadeOut(800);
   $('.container-choosefaction').fadeIn(1600);
  });
+  $('.col-sm-6').hover(
+  function(){
+  $(this).addClass('active');
+  },
+  function(){
+  $(this).removeClass('active');    
+  });
   $('.chooseorks').on('click', function() {;
   $('.container-choosefaction').fadeOut(800);
   $('.container-wargearorks').fadeIn(1600);
