@@ -91,6 +91,16 @@ section p {
   font-size: 2em;
 }
 
+.hide-button {
+  margin: 0 auto;
+  padding: 0.75em 1.25em;
+  background: linear-gradient(to bottom right, #AD0200, #FFFFFF);
+  opacity: 1;
+  width: 15em;
+  color: black;
+  font-size: 2em;
+}
+
 .active {
   background: #333333;
 }
