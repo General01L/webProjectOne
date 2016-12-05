@@ -101,6 +101,10 @@ section p {
   font-size: 2em;
 }
 
+.container-video {
+  align-items: center;
+}
+
 .active {
   background: #333333;
 }
