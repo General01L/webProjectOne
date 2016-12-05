@@ -92,6 +92,33 @@ header p {
   font-size: 2em;
 }
 
+.container-wargearorks h1,
+.container-wargearchaos h1,
+.container-wargearsisters h1,
+.container-wargearmarines h1 {
+  font-size: 4em;
+  font-weight: bold;
+  color: #911710;
+}
+
+.container-wargearorks h2,
+.container-wargearchaos h2,
+.container-wargearsisters h2,
+.container-wargearmarines h2 {
+  font-size: 3em;
+  font-weight: normal;
+  color: #E8590C;
+}
+
+.container-wargearorks p,
+.container-wargearchaos p,
+.container-wargearsisters p,
+.container-wargearmarines p {
+  font-size: 2em;
+  font-weight: normal;
+  color: #E8590C;
+}
+
 
 footer {
   font-size: 2em;
