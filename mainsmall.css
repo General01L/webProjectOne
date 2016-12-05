@@ -106,6 +106,10 @@ section p {
   justify-content: center;
 }
 
+.active {
+  background-color: #696969;
+}
+
 footer {
   font-size: 2em;
   padding: 0.5em 0;
