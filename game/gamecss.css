@@ -51,7 +51,7 @@ header p {
 }
 
 .jumbotron-start h3 {
-  margin: 0 0 2em;
+  margin: 0 0 20px;
   color: #fff;
 }
 
@@ -129,10 +129,10 @@ header p {
 
 .start-button {
   margin: 0 auto;
-  padding: 0.75em 1.25em;
+  padding: 0.5em;
   background-color: #28C6DB;
   opacity: 1;
-  width: 25em;
+  width: 20em;
   color: white;
   font-size: 2em;
 }
