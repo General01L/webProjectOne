@@ -79,6 +79,7 @@ header p {
   padding: 1em;
   border: 6px double #00FFFB;
   border-radius: 10px;
+  height: 500px;
 }
 
 .col-sm-12 {
