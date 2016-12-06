@@ -58,6 +58,20 @@ function startscreen() {
   function(){
   $(this).removeClass('active');    
   });
+  $('.start-button').hover(
+  function(){
+  $(this).addClass('active');
+  },
+  function(){
+  $(this).removeClass('active');    
+  });
+  $('.button-end').hover(
+  function(){
+  $(this).addClass('active');
+  },
+  function(){
+  $(this).removeClass('active');    
+  });
   $('.chooseorks').on('click', function() {;
     $('.container-choosefaction').fadeOut(800);
     $('.container-wargearorks').fadeIn(1600);
